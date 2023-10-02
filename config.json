@@ -1,0 +1,25 @@
+{
+  "project": {
+    "dir": "/Users/Y-ZHENG/go/src/JDC-Monitor"
+  },
+  "influx": {
+    "url": "http://127.0.0.1:8086",
+    "user": "",
+    "pwd": "",
+    "dbName": ""
+  },
+  "jd": [
+    {
+      "user": "Y-ZHENG",
+      "pin": "Y-ZHENG",
+      "tgt": "",
+      "getZXQC": false,
+      "collect": true,
+      "reboot": 100
+    }
+  ],
+  "wechat": {
+    "api": "",
+    "token": ""
+  }
+}

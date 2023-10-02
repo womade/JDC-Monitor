@@ -27,7 +27,7 @@ func main() {
 ===========================================================
 
 `)
-	info := fmt.Sprintf("软件版本：%s &nbsp;&nbsp;&nbsp; 编译日期：%s \n %s \n", version, date, goVersion)
+	info := fmt.Sprintf("软件版本：%s  编译日期：%s \n %s \n", version, date, goVersion)
 	fmt.Print(info)
 	initkit.LoadConfig()
 	cmd.Execute()

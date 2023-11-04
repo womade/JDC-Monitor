@@ -24,7 +24,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 5,
+  "id": 2,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -32,7 +32,7 @@
       "collapsed": false,
       "datasource": {
         "type": "influxdb",
-        "uid": "nzVIy_WIz"
+        "uid": "YUANZHENG"
       },
       "gridPos": {
         "h": 1,
@@ -46,7 +46,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "refId": "A"
         }
@@ -57,7 +57,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "nzVIy_WIz"
+        "uid": "00000000-0000-0000-0000-000000000000"
       },
       "description": "",
       "fieldConfig": {
@@ -105,13 +105,13 @@
         "text": {},
         "textMode": "value_and_name"
       },
-      "pluginVersion": "10.1.4",
+      "pluginVersion": "10.2.0",
       "targets": [
         {
           "alias": "上传流量：",
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -158,7 +158,7 @@
           "alias": "下载流量：",
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -209,7 +209,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "nzVIy_WIz"
+        "uid": "00000000-0000-0000-0000-000000000000"
       },
       "description": "",
       "fieldConfig": {
@@ -218,6 +218,7 @@
             "mode": "palette-classic"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -296,7 +297,7 @@
           "alias": "上传",
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -343,7 +344,7 @@
           "alias": "下载",
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -392,10 +393,7 @@
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "nzVIy_WIz"
-      },
+      "datasource": {},
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -429,6 +427,8 @@
       },
       "id": 14,
       "options": {
+        "minVizHeight": 75,
+        "minVizWidth": 75,
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
@@ -443,12 +443,12 @@
           "titleSize": 1
         }
       },
-      "pluginVersion": "10.1.4",
+      "pluginVersion": "10.2.0",
       "targets": [
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -492,7 +492,7 @@
     {
       "datasource": {
         "type": "influxdb",
-        "uid": "nzVIy_WIz"
+        "uid": "00000000-0000-0000-0000-000000000000"
       },
       "fieldConfig": {
         "defaults": {
@@ -501,6 +501,7 @@
             "seriesBy": "last"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -569,7 +570,7 @@
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -605,23 +606,12 @@
             ]
           ],
           "tags": []
-        },
-        {
-          "datasource": {
-            "type": "influxdb",
-            "uid": "nzVIy_WIz"
-          },
-          "hide": false,
-          "refId": "B"
         }
       ],
       "type": "timeseries"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "nzVIy_WIz"
-      },
+      "datasource": {},
       "fieldConfig": {
         "defaults": {
           "color": {
@@ -655,6 +645,8 @@
       },
       "id": 10,
       "options": {
+        "minVizHeight": 75,
+        "minVizWidth": 75,
         "orientation": "auto",
         "reduceOptions": {
           "calcs": [
@@ -667,12 +659,12 @@
         "showThresholdMarkers": true,
         "text": {}
       },
-      "pluginVersion": "10.1.4",
+      "pluginVersion": "10.2.0",
       "targets": [
         {
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -714,16 +706,14 @@
       "type": "gauge"
     },
     {
-      "datasource": {
-        "type": "influxdb",
-        "uid": "nzVIy_WIz"
-      },
+      "datasource": {},
       "fieldConfig": {
         "defaults": {
           "color": {
             "mode": "thresholds"
           },
           "custom": {
+            "axisBorderShow": false,
             "axisCenteredZero": false,
             "axisColorMode": "text",
             "axisLabel": "",
@@ -796,7 +786,7 @@
           "alias": "内存使用率",
           "datasource": {
             "type": "influxdb",
-            "uid": "nzVIy_WIz"
+            "uid": "YUANZHENG"
           },
           "groupBy": [
             {
@@ -837,9 +827,8 @@
       "type": "timeseries"
     }
   ],
-  "refresh": "5s",
+  "refresh": "10s",
   "schemaVersion": 38,
-  "style": "dark",
   "tags": [],
   "templating": {
     "list": []
@@ -852,6 +841,6 @@
   "timezone": "",
   "title": "ROUTER",
   "uid": "00000001",
-  "version": 2,
+  "version": 1,
   "weekStart": ""
 }
